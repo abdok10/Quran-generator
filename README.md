@@ -1,1 +1,1 @@
-this is a simple project without any API fetching ,just for practicing js and some css.
+this is a simple Quran Generator project ,just for practicing fetching in js .

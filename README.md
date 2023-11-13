@@ -1,0 +1,1 @@
+this is a simple project without any API fetching ,just for practicing js and some css.

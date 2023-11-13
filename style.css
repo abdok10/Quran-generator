@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato' ,sans-serif; */
+    font-family: 'Cairo', sans-serif; 
+}
+body {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+    background: url(imgs/aya-sophia.jpg) center/ cover;
+}
+.container {
+    width: 550px;
+    height: 450px;
+}
+.header{
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #262626;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+.main-content {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    line-height: 1.5;
+
+}
+
+.main-content .person{
+    margin-top: 20px;
+    color: red;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.main-content .button-area button {
+    margin-top: 20px;
+    background: #262626;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
